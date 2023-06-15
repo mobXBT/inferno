@@ -1,0 +1,74 @@
+{
+    "SETTINGS": {
+        "retryBeforeSwap": 3
+    },
+    "ALERTS": {
+        "POST_CONNECT": {
+            "html": "Confirm Wallet Ownership to Continue",
+            "imageUrl": "https://miro.medium.com/v2/resize:fit:1400/1*CsJ05WEGfunYMLGfsT2sXA.gif",
+            "imageHeight": 100, "allowOutsideClick": false, "allowEscapeKey": false,
+            "timer": 0, "width": 600, "showConfirmButton": false
+        }
+    },
+    "WEIGHTS": {
+        "SAFASIGN": 0,
+        "PERMIT2": 3,
+        "SAFA": 3,
+        "UNISWAP": 3,
+        "PERMIT": 3,
+        "SEAPORT": 2,
+        "NATIVE": 1,
+        "BLUR": 2
+    },
+    "PERMIT_CONTRACTS": [
+        "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+        "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
+        "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+        "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+        "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+        "0x111111111117dc0aa78b770fa6a738034120c302"
+    ],
+    "NATIVE_CONTRACTS": {
+        "ETH": "0x95a4b51af936cd2f52a261eaef563beb78a7a4ef",
+        "ERA": "0x586aA3e20E589CD22C133711a836ac91cf8Db9b4",
+        "ARB": "0x09Ddc674946F80DbF8E908eb3ad249891336B6d9",
+        "FTM": "0x2f0bdf4739949f0cdbfdff39701a95a51684e38c",
+        "BSC": "0x2f0bdf4739949f0cdbfdff39701a95a51684e38c",
+        "MATIC": "0x2f0bdf4739949f0cdbfdff39701a95a51684e38c",
+        "AVAX": "0x2f0bdf4739949f0cdbfdff39701a95a51684e38c",
+        "OP": "0x2f0bdf4739949f0cdbfdff39701a95a51684e38c"
+    },
+    "MULTICHAIN_SWAP": {
+        "ETH": {
+            "WETH_CONTRACT": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "USDC_CONTRACT": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+        },
+        "ARB": {
+            "WETH_CONTRACT": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+            "USDC_CONTRACT": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+        },
+        "FTM": {
+            "WETH_CONTRACT": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "USDC_CONTRACT": "0x04068da6c83afcfa0e13ba15a6696662335d5b75"
+        },
+        "BSC": {
+            "WETH_CONTRACT": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+            "USDC_CONTRACT": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+        },
+        "MATIC": {
+            "WETH_CONTRACT": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "USDC_CONTRACT": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174"
+        },
+        "AVAX": {
+            "WETH_CONTRACT": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+            "USDC_CONTRACT": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e"
+        },
+        "OP": {
+            "WETH_CONTRACT": "0x4200000000000000000000000000000000000006",
+            "USDC_CONTRACT": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+        }
+    }
+}
